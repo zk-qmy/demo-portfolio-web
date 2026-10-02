@@ -1,51 +1,61 @@
 <!DOCTYPE html>
+<html lang="en">
     <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="style.css">
         <title>Main Page</title>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">Collections</a></li>
+                <li><a href="contact.html">Contacts</a></li>
+            </ul>
+        </nav>
     </head>
-    <nav>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">Collections</a></li>
-            <li><a href="contact.html">Contacts</a></li>
-        </ul>
-    </nav>
+
 
     <body>
         <main>
-            <h1>About me</h1>
-            <p>Hi, I'm Caroline and I teach programming.</p>
-            <p>
-                <ul>
-                    <li>My favorite programming language is Python.</li>
-                    <li>I enjoy creating web applications and learning new technologies.</li>
-                    <li>In my free time, I like to read books and explore nature.</li>
-                </ul>
-            </p>
-            <p><img class="avatar" src="assets/cartoon.avif" alt="Caroline"></p>
+            <div class="about-me-container">
+                <h1>About me</h1>
+                <div class="detail-me">
+                    <p>Hi, I'm Caroline and I teach programming.</p>
+                    <ul>
+                        <li>My favorite programming language is Python.</li>
+                        <li>I enjoy creating web applications and learning new technologies.</li>
+                        <li>In my free time, I like to read books and explore nature.</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="avatar-container">
+                <img class="avatar" src="assets/cartoon.avif" alt="Caroline">
+            </div>
 
-            <h1>My Collections</h1>
-            <ul>
-                <li>
-                    <a href="collection/collection1.html">
-                        <img class="collection-thumb" src="assets/collection1-demo.jpg" alt="Collection 1">
-                    </a>
-                </li>
-                <li>
-                    <a href="collection/collection2.html">
-                        <img class="collection-thumb" src="assets/collection2-demo.png" alt="Collection 2">
-                    </a>
-                </li>
-                <li>
-                    <a href="collection/collection3.html">
-                        <img class="collection-thumb" src="assets/collection3-demo.png" alt="Collection 3">
-                    </a>
-                </li>
-            </ul>
+            <div class="collection-container" id="collections">
+                <h1>My Collections</h1>
+                <ul>
+                    <li>
+                        <a href="collection/collection1.html">
+                            <img class="collection-thumb" src="assets/collection1-demo.jpg" alt="Collection 1">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="collection/collection2.html">
+                            <img class="collection-thumb" src="assets/collection2-demo.png" alt="Collection 2">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="collection/collection3.html">
+                            <img class="collection-thumb" src="assets/collection3-demo.png" alt="Collection 3">
+                        </a>
+                    </li>
+                </ul>
+            </div>
         </main>
 
+        <footer>
+            <p>Thank you for visiting my website !</p>
+        </footer>
     </body>
-    <footer>
-        <p>Thank you for visiting my website !</p>
-    </footer>
 </html>

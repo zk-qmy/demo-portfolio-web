@@ -32,8 +32,36 @@ a:hover .collection-thumb {
 }
 
 ul {
-    list-style: url("assets/checklist.png");
     text-align: left;
+}
+
+.detail-me ul {
+    list-style: url("assets/checklist.png");
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 24px;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 12px;
+}
+
+.collection-container {
+    clear: both;
+}
+
+.collection-container ul {
+    list-style: none;
+    padding: 0;
+}
+
+.collection-container li {
+    display: inline-block;
+    margin: 0 10px;
 }
 
 li {
